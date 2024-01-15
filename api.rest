@@ -1,0 +1,13 @@
+GET http://localhost:3000/locations 
+###
+GET http://localhost:3000/users
+
+
+###
+patch http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+    "lastName": "1",
+   
+}
