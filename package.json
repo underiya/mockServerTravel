@@ -3,7 +3,7 @@
     "json-server": "^1.0.0-alpha.21"
   },
   "scripts": {
-    "server": "json-server --watch db.json"
+    "start": "json-server --watch db.json"
   },
   "name": "mockservertravel",
   "description": "",
